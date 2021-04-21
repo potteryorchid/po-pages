@@ -61,7 +61,7 @@ _Note that you don't need to run_ `mike install-extras` _as noted in the
 Material for MkDocs._
 
   [2]: https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/header.html
-  [3]: ../assets/screenshots/versioning.png
+  [3]: ../../../assets/screenshots/versioning.png
   [4]: https://squidfunk.github.io/mkdocs-material-example-versioning/
   [5]: https://github.com/jimporter/mike#why-use-mike
   [6]: https://github.com/jimporter/mike#usage
@@ -103,7 +103,7 @@ Make sure that this matches the [default version][11].
   [7]: ../insiders/index.md
   [8]: ../customization.md#extending-the-theme
   [9]: ../customization.md#overriding-blocks
-  [10]: ../assets/screenshots/version-warning.png
+  [10]: ../../../assets/screenshots/version-warning.png
   [11]: #setting-a-default-version
 
 ## Usage

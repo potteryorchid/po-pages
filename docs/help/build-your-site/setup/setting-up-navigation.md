@@ -89,8 +89,8 @@ theme:
     [![Without tabs][8]][8]
 
   [6]: https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/tabs.html
-  [7]: ../assets/screenshots/navigation-tabs.png
-  [8]: ../assets/screenshots/navigation.png
+  [7]: ../../../assets/screenshots/navigation-tabs.png
+  [8]: ../../../assets/screenshots/navigation.png
 
 #### Sticky navigation tabs
 
@@ -119,8 +119,8 @@ theme:
     [![Without sticky tabs][11]][11]
 
   [9]: ../insiders/index.md
-  [10]: ../assets/screenshots/navigation-tabs-sticky.png
-  [11]: ../assets/screenshots/navigation-tabs-collapsed.png
+  [10]: ../../../assets/screenshots/navigation-tabs-sticky.png
+  [11]: ../../../assets/screenshots/navigation-tabs-collapsed.png
 
 ### Navigation sections
 
@@ -146,7 +146,7 @@ theme:
     [![Without sections][8]][8]
 
   [12]: https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/nav-item.html
-  [13]: ../assets/screenshots/navigation-sections.png
+  [13]: ../../../assets/screenshots/navigation-sections.png
 
 Both feature flags, _tabs_ and _sections_, can be combined with each other. If
 both feature flags are enabled, sections are rendered for level 2 navigation
@@ -175,7 +175,7 @@ theme:
 
     [![Without expansion][8]][8]
 
-  [14]: ../assets/screenshots/navigation-expand.png
+  [14]: ../../../assets/screenshots/navigation-expand.png
 
 ### Section index pages
 
@@ -225,8 +225,8 @@ Note that it doesn't rely on third-party plugins[^2]._
     that this plugin may not be compatible with all navigation-related features
     offered by Material for MkDocs.
 
-  [15]: ../assets/screenshots/navigation-index-on.png
-  [16]: ../assets/screenshots/navigation-index-off.png
+  [15]: ../../../assets/screenshots/navigation-index-on.png
+  [16]: ../../../assets/screenshots/navigation-index-off.png
   [17]: #navitation-intergation
   [18]: https://github.com/oprypin/mkdocs-section-index
 
@@ -258,7 +258,7 @@ A demo is worth a thousand words — check it out at
 </figure>
 
   [19]: https://github.com/squidfunk/mkdocs-material/blob/master/src/assets/stylesheets/main/layout/_top.scss
-  [20]: ../assets/screenshots/back-to-top.png
+  [20]: ../../../assets/screenshots/back-to-top.png
   [21]: https://squidfunk.github.io/mkdocs-material-insiders/setup/setting-up-navigation/#back-to-top-button
 
 ### Table of contents
@@ -371,7 +371,7 @@ theme:
     [![Separate table of contents][7]][7]
 
   [26]: https://github.com/squidfunk/mkdocs-material/blob/master/src/assets/stylesheets/main/layout/_nav.scss
-  [27]: ../assets/screenshots/toc-integrate.png
+  [27]: ../../../assets/screenshots/toc-integrate.png
 
 The content section will now always stretch to the right side, resulting in
 more space for your content. This feature flag can be combined with all other
@@ -410,9 +410,9 @@ hide:
 
   [28]: https://github.com/squidfunk/mkdocs-material/blob/master/src/base.html
   [29]: ../../reference/meta-tags/#metadata
-  [30]: ../assets/screenshots/hide-navigation.png
-  [31]: ../assets/screenshots/hide-toc.png
-  [32]: ../assets/screenshots/hide-navigation-toc.png
+  [30]: ../../../assets/screenshots/hide-navigation.png
+  [31]: ../../../assets/screenshots/hide-toc.png
+  [32]: ../../../assets/screenshots/hide-navigation-toc.png
 
 ## Customization
 

@@ -96,4 +96,4 @@ types._
 
   [10]: code-blocks.md
   [11]: #superfences
-  [12]: ../assets/screenshots/diagram.png
+  [12]: ../../../assets/screenshots/diagram.png

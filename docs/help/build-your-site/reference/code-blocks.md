@@ -262,7 +262,7 @@ not compatible with other JavaScript-based syntax highlighters. Support may be
 added later on._
 
   [18]: ../insiders/index.md
-  [19]: ../assets/screenshots/annotations.png
+  [19]: ../../../assets/screenshots/annotations.png
   [20]: https://squidfunk.github.io/mkdocs-material-insiders/reference/code-blocks/#adding-annotations
 
 ### Adding line numbers

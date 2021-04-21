@@ -1,6 +1,9 @@
 # jupyter files
 .ipynb_checkpoints/
 
+# mkdocs build directory
+site/
+
 # Prerequisites
 *.d
 

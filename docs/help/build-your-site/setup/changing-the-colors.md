@@ -250,8 +250,8 @@ color palettes:
   [8]: #color-scheme
   [9]: #primary-color
   [10]: #accent-color
-  [11]: ../assets/screenshots/palette-toggle-default.png
-  [12]: ../assets/screenshots/palette-toggle-slate.png
+  [11]: ../../../assets/screenshots/palette-toggle-default.png
+  [12]: ../../../assets/screenshots/palette-toggle-slate.png
   [13]: https://github.com/squidfunk/mkdocs-material/tree/master/material/.icons
 
 ## Customization

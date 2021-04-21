@@ -166,7 +166,7 @@ A demo is worth a thousand words — check it out at
 </figure>
 
   [8]: ../insiders/index.md
-  [9]: ../assets/screenshots/search-suggestions.png
+  [9]: ../../../assets/screenshots/search-suggestions.png
   [10]: https://squidfunk.github.io/mkdocs-material-insiders/reference/code-blocks/?q=code+high
 
 ### Search highlighting
@@ -200,7 +200,7 @@ A demo is worth a thousand words — check it out at
   </figcaption>
 </figure>
 
-  [11]: ../assets/screenshots/search-highlighting.png
+  [11]: ../../../assets/screenshots/search-highlighting.png
   [12]: https://squidfunk.github.io/mkdocs-material-insiders/reference/code-blocks/?h=code+blocks
 
 ### Search sharing
@@ -235,7 +235,7 @@ A demo is worth a thousand words — check it out at
   </figcaption>
 </figure>
 
-  [13]: ../assets/screenshots/search-share.png
+  [13]: ../../../assets/screenshots/search-share.png
   [14]: https://squidfunk.github.io/mkdocs-material-insiders/setup/setting-up-site-search/?q=share+search
 
 ### Offline search

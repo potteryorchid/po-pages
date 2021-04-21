@@ -107,19 +107,19 @@ plugins:
   - search
   - redirects:
       redirect_maps:
-        extensions/admonition.md: help/build-your-site/reference/admonitions.md
-        extensions/codehilite.md: help/build-your-site/reference/code-blocks.md
-        extensions/footnotes.md: help/build-your-site/reference/footnotes.md
-        extensions/metadata.md: help/build-your-site/reference/meta-tags.md
-        extensions/permalinks.md: help/build-your-site/setup/setting-up-navigation.md #permalink
-        extensions/pymdown.md: help/build-your-site/reference/admonitions.md
-        plugins/revision-date.md: help/build-your-site/setup/adding-a-git-repository.md #revision-date
-        plugins/search.md: help/build-your-site/setup/setting-up-site-search.md
-        releases/4.md: help/build-your-site/upgrading.md #upgrading-from-4x-to-5x
-        releases/5.md: help/build-your-site/upgrading.md #upgrading-from-3x-to-4x
-        releases/changelog.md: help/build-your-site/changelog.md
-        setup/adding-social-links.md: help/build-your-site/setup/setting-up-the-footer.md
-        sponsorship.md: help/build-your-site/insiders/index.md
+        redirects/extensions/admonition.md: help/build-your-site/reference/admonitions.md
+        redirects/extensions/codehilite.md: help/build-your-site/reference/code-blocks.md
+        redirects/extensions/footnotes.md: help/build-your-site/reference/footnotes.md
+        redirects/extensions/metadata.md: help/build-your-site/reference/meta-tags.md
+        redirects/extensions/permalinks.md: help/build-your-site/setup/setting-up-navigation.md #permalink
+        redirects/extensions/pymdown.md: help/build-your-site/reference/admonitions.md
+        redirects/plugins/revision-date.md: help/build-your-site/setup/adding-a-git-repository.md #revision-date
+        redirects/plugins/search.md: help/build-your-site/setup/setting-up-site-search.md
+        redirects/releases/4.md: help/build-your-site/upgrading.md #upgrading-from-4x-to-5x
+        redirects/releases/5.md: help/build-your-site/upgrading.md #upgrading-from-3x-to-4x
+        redirects/releases/changelog.md: help/build-your-site/changelog.md
+        redirects/setup/adding-social-links.md: help/build-your-site/setup/setting-up-the-footer.md
+        redirects/sponsorship.md: help/build-your-site/insiders/index.md
   - minify:
       minify_html: true
 

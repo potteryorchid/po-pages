@@ -119,7 +119,7 @@ This will render a language selector in the header next to the search bar:
 [![Language selection][4]][4]
 
   [3]: https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/header.html
-  [4]: ../assets/screenshots/language-selection.png
+  [4]: ../../../assets/screenshots/language-selection.png
 
 ### Site search language
 
