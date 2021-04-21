@@ -1,0 +1,252 @@
+# Copyright (c) 2021 Pottery Orchid <potteryorchid@163.com>
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+# Project information
+site_name: Pottery.Orchid`s Blog
+site_url: https://potteryorchid.github.io
+site_author: Pottery Orchid
+site_description: >-
+  Personal blog, for recording technical notes and anything I do like. If has any question or some good ideas, send a mail to potteryorchid@163.com. A pleasure to wait for you.
+
+# Repository
+repo_name: potteryorchid/po-pages
+repo_url: https://github.com/potteryorchid/po-pages
+edit_uri: ""
+
+# Copyright
+copyright: Copyright &copy;  2021 Pottery.Orchid
+
+# Configuration
+theme:
+  name: null
+  custom_dir: material-theme
+
+  # Static files
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  direction: ltr
+  language: en
+  features:
+    - header.autohide
+    - navigation.instant
+    - navigation.tracking
+    #- navigation.sections
+    #- navigation.expand
+    - navigation.indexes
+    - navigation.tabs
+    #- navigation.tabs.sticky
+    - navigation.top
+
+  # palette attributes
+  
+  # palette.primary color: red, pink, purple, deep purple, indigo, blue, light blue, cyan, teal, green, light green, lime, yellow, amber, orange, deep orange, brown, grey, blue grey, black, white
+  
+  # palette.accent color: red, pink, purple, deep purple, indigo, blue, light blue, cyan, teal, green, light green, lime, yellow, amber, orange, deep orange
+  
+  # palette.scheme: slate, default
+  
+  # palette.toggle.icon: material/toggle-switch-off-outline + material/toggle-switch, material/weather-sunny + material/weather-night, material/eye-outline + material/eye, material/lightbulb-outline + material/lightbulb
+  
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: red
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/eye-outline
+        name: Switch to light mode
+    - scheme: default
+      primary: pink
+      accent: green
+      toggle:
+        icon: material/eye
+        name: Switch to dark mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
+
+# Plugins
+plugins:
+  - search
+  - redirects:
+      redirect_maps:
+        extensions/admonition.md: help/build-your-site/reference/admonitions.md
+        extensions/codehilite.md: help/build-your-site/reference/code-blocks.md
+        extensions/footnotes.md: help/build-your-site/reference/footnotes.md
+        extensions/metadata.md: help/build-your-site/reference/meta-tags.md
+        extensions/permalinks.md: help/build-your-site/setup/setting-up-navigation.md #permalink
+        extensions/pymdown.md: help/build-your-site/reference/admonitions.md
+        plugins/revision-date.md: help/build-your-site/setup/adding-a-git-repository.md #revision-date
+        plugins/search.md: help/build-your-site/setup/setting-up-site-search.md
+        releases/4.md: help/build-your-site/upgrading.md #upgrading-from-4x-to-5x
+        releases/5.md: help/build-your-site/upgrading.md #upgrading-from-3x-to-4x
+        releases/changelog.md: help/build-your-site/changelog.md
+        setup/adding-social-links.md: help/build-your-site/setup/setting-up-the-footer.md
+        sponsorship.md: help/build-your-site/insiders/index.md
+  - minify:
+      minify_html: true
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/potteryorchid
+  #  - icon: fontawesome/brands/gitter
+  #    link: https://gitter.im/squidfunk/mkdocs-material
+  #  - icon: fontawesome/brands/docker
+  #    link: https://hub.docker.com/r/squidfunk/mkdocs-material/
+  #  - icon: fontawesome/brands/twitter
+  #    link: https://twitter.com/squidfunk
+  #  - icon: fontawesome/brands/linkedin
+  #    link: https://linkedin.com/in/squidfunk/
+  #  - icon: fontawesome/brands/instagram
+  #    link: https://instagram.com/squidfunk
+
+  generator: false
+
+  alternate:
+
+    # Switch to English
+    - name: English
+      link: https://potteryorchid.github.io/en/
+      lang: en
+
+    # Switch to Chinese
+    - name: 中文
+      link: https://potteryorchid.github.io/zh/
+      lang: zh
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      #toc_depth: 2
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - Home: index.md
+  - Help:
+    - Build your site:
+      - Getting started:
+        - Installation: help/build-your-site/getting-started.md
+        - Creating your site: help/build-your-site/creating-your-site.md
+        - Publishing your site: help/build-your-site/publishing-your-site.md
+        - Customization: help/build-your-site/customization.md
+        - Troubleshooting: help/build-your-site/troubleshooting.md
+        - Data privacy: help/build-your-site/data-privacy.md
+        - License: help/build-your-site/license.md
+        - Releases:
+          - Changelog: help/build-your-site/changelog.md
+          - Upgrade guide: help/build-your-site/upgrading.md
+          - Deprecations: help/build-your-site/deprecations.md
+      - Setup:
+        - Changing the colors: help/build-your-site/setup/changing-the-colors.md
+        - Changing the fonts: help/build-your-site/setup/changing-the-fonts.md
+        - Changing the language: help/build-your-site/setup/changing-the-language.md
+        - Changing the logo and icons: help/build-your-site/setup/changing-the-logo-and-icons.md
+        - Setting up navigation: help/build-your-site/setup/setting-up-navigation.md
+        - Setting up site search: help/build-your-site/setup/setting-up-site-search.md
+        - Setting up site analytics: help/build-your-site/setup/setting-up-site-analytics.md
+        - Setting up versioning: help/build-your-site/setup/setting-up-versioning.md
+        - Setting up the header: help/build-your-site/setup/setting-up-the-header.md
+        - Setting up the footer: help/build-your-site/setup/setting-up-the-footer.md
+        - Adding a git repository: help/build-your-site/setup/adding-a-git-repository.md
+        - Adding a comment system: help/build-your-site/setup/adding-a-comment-system.md
+      - Reference:
+        - Abbreviations: help/build-your-site/reference/abbreviations.md
+        - Admonitions: help/build-your-site/reference/admonitions.md
+        - Buttons: help/build-your-site/reference/buttons.md
+        - Code blocks: help/build-your-site/reference/code-blocks.md
+        - Content tabs: help/build-your-site/reference/content-tabs.md
+        - Data tables: help/build-your-site/reference/data-tables.md
+        - Diagrams: help/build-your-site/reference/diagrams.md
+        - Footnotes: help/build-your-site/reference/footnotes.md
+        - Formatting: help/build-your-site/reference/formatting.md
+        - Icons + Emojis: help/build-your-site/reference/icons-emojis.md
+        - Images: help/build-your-site/reference/images.md
+        - Lists: help/build-your-site/reference/lists.md
+        - MathJax: help/build-your-site/reference/mathjax.md
+        - Meta tags: help/build-your-site/reference/meta-tags.md
+        - Variables: help/build-your-site/reference/variables.md
+      - Insiders:
+        - Sponsorship: help/build-your-site/insiders/index.md
+        - Getting started:
+          - Installation: help/build-your-site/insiders/getting-started.md
+          - Changelog: help/build-your-site/insiders/changelog.md
+
+# Google Analytics
+google_analytics:
+  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+  - auto
